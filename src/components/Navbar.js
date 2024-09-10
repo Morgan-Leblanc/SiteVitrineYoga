@@ -8,13 +8,13 @@ const Navbar = () => {
       <Link className="link" to="/">
         Accueil
       </Link>
-      <Link className="link" to="/cours_tarifs">
+      <Link className="link" to="/classes-and-pricing">
         Horaires & Tarifs
       </Link>
-      <Link className="link" to="/lasalle">
+      <Link className="link" to="/studio">
         La Salle
       </Link>
-      <Link className="link" to="/parcours">
+      <Link className="link" to="/yoga-information">
         L'enseignement
       </Link>
       <Link className="link" to="/contact">
