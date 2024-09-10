@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a190708e.css",
+    "main.js": "/static/js/main.513def3e.js",
+    "static/media/salle2.jpg": "/static/media/salle2.f965249eed06312e963f.jpg",
+    "static/media/salle4.jpg": "/static/media/salle4.9afdbefbf07ee1d7f6fe.jpg",
+    "static/media/salle6.jpg": "/static/media/salle6.15c2a2dc8b132300051f.jpg",
+    "static/media/salle5.jpg": "/static/media/salle5.5d1b2aa2d7af510202c9.jpg",
+    "static/media/salle3.jpg": "/static/media/salle3.7cd1bb1fb160d9a750cb.jpg",
+    "static/media/goute_tarif.png": "/static/media/goute_tarif.081d7855283ced9e8a66.png",
+    "static/media/bambou.jpg": "/static/media/bambou.c7613e1a749eb7054513.jpg",
+    "static/media/yogiste_header.jpg": "/static/media/yogiste_header.a636cd393331c012ab2b.jpg",
+    "static/media/lotus.png": "/static/media/lotus.cb5800c6fea26f1db1d7.png",
+    "index.html": "/index.html",
+    "main.a190708e.css.map": "/static/css/main.a190708e.css.map",
+    "main.513def3e.js.map": "/static/js/main.513def3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a190708e.css",
+    "static/js/main.513def3e.js"
+  ]
+}
