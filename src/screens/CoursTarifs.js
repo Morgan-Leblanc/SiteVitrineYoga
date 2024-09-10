@@ -1,7 +1,7 @@
 import React from "react";
 import "./screensCss/Cours_Tarifs.css";
 
-const Cours_Tarifs = () => {
+const CoursTarifs = () => {
   return (
     <div className="coursTarifsContainer">
       <div className="horairesContainer">
@@ -59,4 +59,4 @@ const Cours_Tarifs = () => {
   );
 };
 
-export default Cours_Tarifs;
+export default CoursTarifs;

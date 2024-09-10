@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, TileLayer, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import "../screens/screensCss/Contact.css";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 
@@ -11,13 +11,13 @@ const Contact = () => {
         Nous Trouver:
       </h1>
       <div className="leaflet-container">
-        <Map center={position} zoom={13}>
+        <MapContainer center={position} zoom={13}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
           <Marker position={position} />
-        </Map>
+        </MapContainer>
       </div>
       <div className="contactForm">
         <h1 title="contacter centre yoga proche etampes">Nous Contacter:</h1>
