@@ -30,7 +30,7 @@ jobs:
 
       # Deploy to OVH server using SFTP
       - name: Deploy to OVH via SFTP
-        uses: appleboy/scp-action@v0.1.4
+        uses: appleboy/scp-action@v0.1.0
         with:
           host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USERNAME }}
