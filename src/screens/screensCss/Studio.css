@@ -24,7 +24,7 @@
 }
 
 .stuffContainer {
-  margin-bottom: 6%; /* Augmenté pour créer plus d'espace avant le carrousel */
+  margin-bottom: 6%; 
 }
 
 .carrousel {
@@ -34,7 +34,7 @@
   height: 80vh;
   width: 60%;
   max-width: 1000px;
-  margin: 10% 0; /* Augmenté pour plus d'espace avant et après le carrousel */
+  margin: 10% 0; 
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -52,13 +52,13 @@
   }
 
   .stuffContainer {
-    margin-bottom: 5%; /* Ajusté pour les tablettes */
+    margin-bottom: 5%; 
   }
 
   .carrousel {
     height: 50vh;
     width: 90%;
-    margin: 5% 0; /* Ajusté pour les tablettes */
+    margin: 5% 0; 
   }
 }
 
@@ -71,12 +71,12 @@
   }
 
   .stuffContainer {
-    margin-bottom: 8%; /* Augmenté pour les mobiles */
+    margin-bottom: 8%; 
   }
 
   .carrousel {
     height: 40vh;
     width: 95%;
-    margin: 8% 0; /* Augmenté pour les mobiles */
+    margin: 8% 0; 
   }
 }

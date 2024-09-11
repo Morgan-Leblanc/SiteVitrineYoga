@@ -5,7 +5,7 @@
   justify-content: center;
   font-family: "Amatic SC", sans-serif;
   font-weight: bold;
-  font-size: 1.75rem; /* Changé de 28px à 1.75rem */
+  font-size: 1.75rem; 
   color: #467f8c;
   text-shadow: 1px 1px 2px gray;
   padding: 20px 0;
@@ -14,14 +14,14 @@
 
 #lotus {
   height: 10vh;
-  width: auto; /* Changé de 7vw à auto pour maintenir les proportions */
-  max-width: 100px; /* Ajouté pour limiter la taille sur les grands écrans */
+  width: auto; 
+  max-width: 100px; 
   margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .footerContainer {
-    font-size: 1.25rem; /* Changé de 20px à 1.25rem */
+    font-size: 1.25rem; 
   }
 
   #lotus {
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 375px) {
   .footerContainer {
-    font-size: 0.875rem; /* Changé de 14px à 0.875rem */
+    font-size: 0.875rem; 
     padding: 15px 0;
   }
 

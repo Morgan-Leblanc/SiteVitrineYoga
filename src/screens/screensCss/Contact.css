@@ -70,9 +70,9 @@
 
 #phonecall {
   color: #080808;
-  font-size: 1.5rem; /* Augmenté pour une meilleure visibilité */
+  font-size: 1.5rem; 
   font-weight: bold;
-  color: #467f8c; /* Couleur ajoutée pour plus de contraste */
+  color: #467f8c; 
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -86,7 +86,7 @@
 }
 
 #emailLink:hover, #phonecall:hover {
-  color: #3a6b76; /* Couleur plus foncée au survol */
+  color: #3a6b76; 
 }
 
 @media screen and (max-width: 768px) {
