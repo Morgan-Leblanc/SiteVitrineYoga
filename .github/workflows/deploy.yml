@@ -28,13 +28,12 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      # Deploy to OVH server using SFTP
+      # Deploy to OVH server using SFTP with Password Authentication
       - name: Deploy to OVH via SFTP
-        uses: appleboy/scp-action@v0.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          host: ${{ secrets.SFTP_HOST }}
+          server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USERNAME }}
-          key: ${{ secrets.SFTP_PRIVATE_KEY }}
-          port: 22
-          source: "build/*"
-          target: "/www"
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local-dir: "build"
+          server-dir: "/www"
