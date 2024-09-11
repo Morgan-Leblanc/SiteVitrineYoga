@@ -36,4 +36,4 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: "build/"
-          server-dir: "/www"
+          server-dir: "/www/"
