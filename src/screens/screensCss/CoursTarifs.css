@@ -1,74 +1,61 @@
 .coursTarifsContainer {
-  width: 99.1vw;
-  height: auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
   font-size: 20px;
   font-weight: bold;
-  justify-content: space-between;
   font-family: "Baloo 2", sans-serif;
   background-image: url("../../assets/pictures/goute_tarif.png");
-  -webkit-box-shadow: 0px 11px 5px 0px rgba(143, 140, 143, 1);
-  -moz-box-shadow: 0px 11px 5px 0px rgba(143, 140, 143, 1);
-  box-shadow: 0px 11px 5px 0px rgba(143, 140, 143, 1);
   background-size: cover;
   background-position: center;
+  box-shadow: 0px 11px 5px 0px rgba(143, 140, 143, 1);
   margin-bottom: 2%;
 }
-.horairesContainer {
-  height: auto;
-  width: 49vw;
-  margin: 2%;
-  background-color: whitesmoke;
-  opacity: 0.6;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+.horairesContainer, .tarifsContainer {
+  flex: 1 1 45%;
+  min-width: 300px;
+  margin: 1%;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.6);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   color: black;
   border-radius: 20px;
   border: 3px solid grey;
+  box-sizing: border-box;
 }
-.tarifsContainer {
-  height: auto;
-  width: 60vw;
-  background-color: whitesmoke;
-  opacity: 0.6;
-  margin: 2%;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  color: black;
-  font-weight: bold;
-  border-radius: 20px;
-  border: 3px solid grey;
-}
+
 .horaires {
   margin-top: 15%;
 }
 
 @media screen and (max-width: 768px) {
-  .tarifsContainer {
+  .coursTarifsContainer {
     font-size: 18px;
-    height: 80%;
   }
-  .horairesContainer {
-    font-size: 18px;
-    height: 80%;
+  
+  .horairesContainer, .tarifsContainer {
+    flex: 1 1 100%;
+    margin: 2% 0;
   }
 }
+
 @media screen and (max-width: 375px) {
-  .tarifsContainer {
-    font-size: 12px;
-    width: 90vw;
-    margin-left: 3%;
-    height: auto;
-    margin-bottom: 20%;
-  }
-  .horairesContainer {
-    font-size: 12px;
-    width: 90vw;
-    margin-left: 3%;
-  }
   .coursTarifsContainer {
+    font-size: 16px;
     flex-direction: column;
+  }
+  
+  .horairesContainer, .tarifsContainer {
+    width: 100%;
+    margin: 2% 0;
+    padding: 15px;
+  }
+  
+  .horaires {
+    margin-top: 10%;
   }
 }

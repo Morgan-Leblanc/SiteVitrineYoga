@@ -1,150 +1,94 @@
 .parcoursContainer {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  width: 99.1vw;
-  height: auto;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0;
+  box-sizing: border-box;
 }
 
 .parcours {
-  margin-top: 5%;
-  font-size: 25px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 3% 0;
+  padding: 20px;
+  font-size: 1.5rem;
   font-family: "Baloo 2", sans-serif;
   font-weight: bold;
-  width: 80vw;
-  margin-bottom: 5%;
-  background-color: whitesmoke;
-  opacity: 0.6;
+  background-color: rgba(245, 245, 245, 0.6);
   border-radius: 20px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari et Chrome */
-  -o-animation: fadein 1s; /* Opera */
 }
+
 .containerButton {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  width: 70vw;
-  margin: 5%;
+  width: 80%;
+  max-width: 1000px;
+  margin: 3% 0;
 }
+
 .buttonMoreInfos {
   background-color: #467f8c;
   color: white;
-  font-size: 30px;
-  padding: 3vh;
+  font-size: 1.8rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
   border: none;
-  margin-bottom: 3%;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   text-decoration: none;
-  font-family: "Amatic SC", sans-serif;
-  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
+
 .buttonMoreInfos:focus {
   outline: none;
 }
+
+.buttonMoreInfos:hover {
+  background-color: #3a6b76;
+}
+
 @media screen and (max-width: 768px) {
-  .parcoursContainer {
-    height: auto;
-  }
   .parcours {
-    font-size: 12px;
-    height: auto;
-    width: 100vw;
+    width: 90%;
+    font-size: 1.2rem;
   }
+
   .containerButton {
-    position: sticky;
-    top: 0;
-    margin-top: 2%;
-    z-index: 10;
-    width: auto;
-    justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   .buttonMoreInfos {
-    width: auto;
-    font-size: 10px;
-    border-radius: 0px;
+    font-size: 1.5rem;
+    padding: 12px 24px;
+    margin: 10px;
   }
 }
+
 @media screen and (max-width: 375px) {
-  .parcoursContainer {
-    height: auto;
-  }
   .parcours {
-    font-size: 12px;
-    height: auto;
-    width: 100vw;
+    width: 95%;
+    font-size: 1rem;
+    padding: 15px;
   }
+
   .containerButton {
-    position: sticky;
-    top: 5;
-    margin-top: 2%;
-    z-index: 10;
-    justify-content: space-around;
+    width: 95%;
   }
+
   .buttonMoreInfos {
-    height: 100px;
-    width: auto;
-    font-size: 10px;
-    border-radius: 0px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 5px;
   }
 }
-@media screen and (max-width: 322px) {
-  .containerButton {
-    position: sticky;
-    top: 0;
-    margin-top: 2%;
-    z-index: 10;
-    width: 90vw;
-    height: auto;
-    justify-content: space-around;
-    position: sticky;
-    top: 5;
-  }
-  .buttonMoreInfos {
-    width: auto;
-    font-size: 7px;
-    border-radius: 0px;
-  }
-}
+
 @keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadein {
-  /* sur Safari et Chrome */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadein {
-  /* sur Opera */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

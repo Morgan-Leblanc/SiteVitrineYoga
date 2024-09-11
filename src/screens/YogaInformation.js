@@ -9,23 +9,20 @@ import "../screens/screensCss/YogaInformation.css"
 const YogaInformation = () => {
   const [activeSection, setActiveSection] = useState(null);
 
+  const sections = [
+    { id: 'parcours', text: 'Parcours de l\'enseignante', component: TeacherJourney },
+    { id: 'deGasquet', text: 'Méthode De Gasquet', component: DeGasquetMethod },
+    { id: 'yoga', text: 'Le Yoga', component: YogaOverview },
+    { id: 'yogaVertus', text: 'Les vertus du Yoga', component: YogaBenefits },
+  ];
+
   const displaySection = (section) => {
     setActiveSection(activeSection === section ? null : section);
   };
 
   const renderContent = () => {
-    switch (activeSection) {
-      case 'parcours':
-        return <TeacherJourney />;
-      case 'deGasquet':
-        return <DeGasquetMethod />;
-      case 'yoga':
-        return <YogaOverview />;
-      case 'yogaVertus':
-        return <YogaBenefits />;
-      default:
-        return null;
-    }
+    const activeComponent = sections.find(section => section.id === activeSection)?.component;
+    return activeComponent ? React.createElement(activeComponent) : null;
   };
 
   return (
@@ -37,18 +34,15 @@ const YogaInformation = () => {
       </Helmet>
       <main className="parcoursContainer">
         <nav className="containerButton">
-          <button className="buttonMoreInfos" onClick={() => displaySection('yoga')}>
-            Le Hatha Yoga
-          </button>
-          <button className="buttonMoreInfos" onClick={() => displaySection('yogaVertus')}>
-            Les vertus du Yoga
-          </button>
-          <button className="buttonMoreInfos" onClick={() => displaySection('deGasquet')}>
-            La Méthode DeGasquet
-          </button>
-          <button className="buttonMoreInfos" onClick={() => displaySection('parcours')}>
-            Le Parcours de l'Enseignante
-          </button>
+          {sections.map(({ id, text }) => (
+            <button 
+              key={id} 
+              className={`buttonMoreInfos ${activeSection === id ? 'active' : ''}`}
+              onClick={() => displaySection(id)}
+            >
+              {text}
+            </button>
+          ))}
         </nav>
         {renderContent()}
       </main>

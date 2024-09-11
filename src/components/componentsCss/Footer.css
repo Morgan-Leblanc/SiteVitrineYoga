@@ -1,37 +1,43 @@
 .footerContainer {
-  font-size: 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Amatic SC", sans-serif;
   font-weight: bold;
-  text-shadow: 1px 1px 2px gray;
+  font-size: 1.75rem; /* Changé de 28px à 1.75rem */
   color: #467f8c;
-  margin-bottom: 2%;
+  text-shadow: 1px 1px 2px gray;
+  padding: 20px 0;
+  box-sizing: border-box;
 }
+
 #lotus {
   height: 10vh;
-  width: 7vw;
+  width: auto; /* Changé de 7vw à auto pour maintenir les proportions */
+  max-width: 100px; /* Ajouté pour limiter la taille sur les grands écrans */
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .footerContainer {
-    font-size: 20px;
+    font-size: 1.25rem; /* Changé de 20px à 1.25rem */
   }
+
   #lotus {
-    height: 6vh;
-    width: 12vw;
+    height: 8vh;
+    max-width: 80px;
   }
 }
+
 @media screen and (max-width: 375px) {
   .footerContainer {
-    display: flex;
-    font-size: 14px;
-    margin-top: 40%;
+    font-size: 0.875rem; /* Changé de 14px à 0.875rem */
+    padding: 15px 0;
   }
+
   #lotus {
-    height: 7vh;
-    width: 10vw;
+    height: 6vh;
+    max-width: 60px;
   }
 }

@@ -2,16 +2,63 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap");
 
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: linear-gradient(white, #b3aca3, #d0bdaf, white);
   text-align: center;
 }
 
-.App h1 {
-  font-family:"Amatic SC", sans-serif;
-  font-size: 60px;
-  opacity: 0.6;
+.App-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+.App h1, .App h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 3rem;
+  opacity: 0.6;
+  margin: 20px 0;
+}
+
 #citationGlobal {
   color: #467f8c;
   font-style: italic;
+  font-size: 1.2rem;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .App h1, .App h2 {
+    font-size: 2.5rem;
+  }
+
+  #citationGlobal {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .App-content {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .App h1, .App h2 {
+    font-size: 2rem;
+  }
+
+  #citationGlobal {
+    font-size: 0.9rem;
+    max-width: 95%;
+  }
+
+  .App-content {
+    padding: 10px;
+  }
 }

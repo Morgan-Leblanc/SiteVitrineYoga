@@ -32,13 +32,13 @@ const ClassesAndPricing = () => {
         
         <section className="tarifsContainer">
           <h1>Tarifs</h1>
-          <p>La séance d'essai est offerte (appeler au préalable pour connaître les créneaux disponibles).</p>
-          <p>Pour une séance hebdomadaire de 2H00 :</p>
-          <p>Forfait annuel : 450 €</p>
-          <p>Règlement possible en 3 chèques à l'inscription (soit 150 € par trimestre)</p>
+          <p>Pour 1 séance hebdomadaire de 2H00 : 450 € / an</p>
+          <p>Pour 2 séances hebdomadaires de 2H00 : 810 € / an</p>
+          <p>(Règlement possible en 3 chèques à l'inscription)</p>
           <p>Séance supplémentaire (dans le cadre d'un forfait annuel) : 15 €</p>
           <p>Pour une séance hors forfait : 20€</p>
           <p>Adhésion annuelle obligatoire : 20€</p>
+          <p>La séance d'essai est offerte (appeler au préalable pour connaître les créneaux disponibles).</p>
           <p>
             Les séances non effectuées ne sont pas remboursées. 
             Néanmoins, en cas d'absence à un cours, il vous est possible de le
