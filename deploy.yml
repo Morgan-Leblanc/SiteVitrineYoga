@@ -1,0 +1,40 @@
+name: Deploy to OVH with CI/CD
+
+on:
+  push:
+    branches:
+      - production
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Clone the repository
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # Install project dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build the project for production
+      - name: Build the project
+        run: npm run build
+
+      # Deploy to OVH server using SFTP
+      - name: Deploy to OVH via SFTP
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          key: ${{ secrets.SFTP_PRIVATE_KEY }}
+          port: 22
+          source: "build/*"
+          target: "/www"
+
