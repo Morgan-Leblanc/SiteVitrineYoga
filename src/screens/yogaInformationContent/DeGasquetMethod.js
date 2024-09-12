@@ -33,7 +33,7 @@ const DeGasquetMethod = () => {
         L’originalité de son approche est la synchronisation de la mise en
         tension du périnée avec l’expiration, induisant une diminution de la
         pression intra-abdominale et contribuant ainsi à protéger le rachis,
-        les abdominaux, le plancher pelvien et les organes suspendus. Le
+        les abdominaux, le plancher pelvien et les organes suspendus. <br></br>Le
         placement du bassin se fait toujours à partir du périnée.
       </p>
       <p>

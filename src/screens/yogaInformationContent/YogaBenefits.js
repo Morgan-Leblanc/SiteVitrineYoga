@@ -38,7 +38,7 @@ const YogaBenefits = () => {
           <p>Redonner de la longueur et de la tonicité à ses muscles,<br></br>renforcer ses articulations et goûter une amplitude articulaire oubliée.</p>
           <p>Dénouer les tensions musculaires, stimuler les différents organes et toutes les fonctions du corps,<br></br> équilibrer le système nerveux…</p>
           <p>Retrouver une liberté de mouvement, aisance et fluidité en déliant le corps avec douceur et précision, <br></br> de manière progressive  et respectueuse du corps de chacun.</p>
-          <p>Mobiliser et habiter en conscience ce corps que l'on est, dans le respect et la bienveillance envers soi-même.</p>
+          <p>Mobiliser et habiter en conscience ce corps que l'on est, dans le respect <br></br> et la bienveillance envers soi-même.</p>
           <p>Améliorer sa vitalité grâce à une meilleure circulation de l'énergie dans le corps.</p>
           <p>Renouer avec sa respiration et harmoniser avec bonheur le geste et le souffle dans sa plénitude.</p>
           <p>Apprendre à se recentrer et à endiguer le flot permanent et envahissant des pensées.<br></br> Le yoga est un chemin de pacification intérieure, d'apaisement du mental et de l'émotionnel, <br></br> une voie d'unification.</p>
@@ -46,7 +46,7 @@ const YogaBenefits = () => {
           <p>Développer notre capacité à se rendre disponible, ouvert,  à nous poser et <br></br> à laisser quelque chose en nous se poser.</p>
           <blockquote id="citationGlobal">
             « Devient en toi-même une maison de paix, un point tranquille tourné
-            vers l'Etre essentiel, vers la grande Vie » <br></br>KG Dürckeim
+            vers l'Etre essentiel, <br></br> vers la grande Vie » <br></br>KG Dürckeim
           </blockquote>
           <p>
             Donner la pleine attention au moment présent tel qu'il est et goûter son
@@ -54,12 +54,11 @@ const YogaBenefits = () => {
           </p>
           <blockquote id="citationGlobal">
             « La pleine conscience est la conscience sans jugement de chaque
-            instant, que l'on cultive en prêtant attention. » <br></br>Jon Kabat
+            instant, <br></br> que l'on cultive en prêtant attention. » <br></br>Jon Kabat
             Zinn
           </blockquote>
           <p>Plonger au plus profond de soi et y trouver un espace de quiétude.</p>
           <p>Prendre le temps de la croissance intérieure. </p>
-          <p>Se recentrer pour mieux se « décentrer »</p>
           <blockquote id="citationGlobal">
             « Qui veut trouver des perles ne doit pas se contenter de regarder la
             mer, il doit plonger » <br></br>Rumi

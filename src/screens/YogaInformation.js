@@ -7,12 +7,12 @@ import TeacherJourney from "./yogaInformationContent/TeacherJourney";
 import "../screens/screensCss/YogaInformation.css"
 
 const YogaInformation = () => {
-  const [activeSection, setActiveSection] = useState(null);
+  const [activeSection, setActiveSection] = useState("parcours");
 
   const sections = [
     { id: 'parcours', text: 'Parcours de l\'enseignante', component: TeacherJourney },
     { id: 'deGasquet', text: 'Méthode De Gasquet', component: DeGasquetMethod },
-    { id: 'yoga', text: 'Le Yoga', component: YogaOverview },
+    { id: 'yoga', text: 'Le  Hatha-Yoga', component: YogaOverview },
     { id: 'yogaVertus', text: 'Les vertus du Yoga', component: YogaBenefits },
   ];
 

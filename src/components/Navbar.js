@@ -12,7 +12,7 @@ const Navbar = () => {
         Horaires & Tarifs
       </Link>
       <Link className="link" to="/studio">
-        La Salle
+        Le Studio
       </Link>
       <Link className="link" to="/yoga-information">
         L'enseignement

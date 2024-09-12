@@ -39,35 +39,34 @@ const TeacherJourney = () => {
             prêtre,<br></br> spécialiste des grandes religions qui vécu 22 ans en Inde.
             <br></br>
             <br></br>Depuis 1998 elle a reçu l’enseignement de divers
-            formateurs de l’EFY (Ecole Française de Yoga) et notamment :
+            formateurs de l’EFY (Ecole Française de Yoga) <br></br> et notamment :
           </p>
 
           <p>
-            De 2005 à 2011 celui d’Annemarie Hebeisen, enseignante dans la
-            lignée Dürckheim et proche collaboratrice de Blandine Calais
-            Germain auteure de plusieurs ouvrages dont « Anatomie pour le yoga
-            »
+            De 2005 à 2011 celui d’Annemarie Hebeisen, formatrice d'anatomie et de yoga dans la
+            lignée Dürckheim, disciple du moine zen Hôzumi Roshi et proche collaboratrice <br></br> de Blandine Calais-Germain auteure  de plusieurs ouvrages dont <br></br> « Anatomie pour le yoga
+            », « Abdos sans risque », «Le périnée féminin et l'accouchement »...
           </p>
 
           <p>
             Depuis 2010 elle suit plus particulièrement l’enseignement
             d’Isabelle Morin-Larbey formatrice dans la lignée de Madras 
             (Enseignement de Krishnamacharya, yogi du sud de l’Inde et de son
-            fils de TKV Desikachar)
+            fils TKV Desikachar), et présidente de la FNEY (Présidente de la fédération française de yoga) depuis 2009.
           </p>
 
           <p>
-            En 2015 elle obtient la certification « YOGA » DE GASQUET®{" "}
+            En 2015 Nathalie obtient la certification « YOGA » DE GASQUET®{" "}
             <br></br>
             Méthode APOR (Approche posturo respiratoire) élaborée par
-            Bernadette de Gasquet, médecin, professeur de yoga <br></br>et fondatrice
+            Bernadette de Gasquet, médecin,<br></br> professeur de yoga et fondatrice
             de L’Institut DE GASQUET® à Paris.
           </p>
 
           <p>
             Elle pratique également le Tai Chi Chuan depuis 1990 et étudie
             l’Art de la calligraphie extrême orientale depuis 2008
-            <br></br>(calligraphie chinoise et peinture à l’encre ou sumie)
+            (calligraphie chinoise et peinture à l’encre ou sumie)
           </p>
         </section>
         <section className="liensExternes">

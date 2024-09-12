@@ -20,7 +20,7 @@ const YogaOverview = () => {
           </p>
           <p>
             Nous proposons une pratique globale, douce, progressive et respectueuse
-            du corps et du rythme de chacun.
+            du corps <br></br> et du rythme de chacun.
           </p>
           <p>
             La méthode APOR (voir méthode De Gasquet) propose une approche

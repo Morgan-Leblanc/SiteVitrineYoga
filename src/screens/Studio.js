@@ -10,20 +10,20 @@ const Studio = () => {
   return (
     <>
       <Helmet>
-        <title>La Salle de Yoga - Yoga Arc-en-Ciel près d'Etampes</title>
+        <title>Le Studio de Yoga - Yoga Arc-en-Ciel près d'Etampes</title>
         <meta name="description" content="Découvrez notre salle de yoga paisible située dans un ancien moulin au sud d'Etampes. Un espace lumineux et accueillant pour votre pratique du yoga." />
-        <meta name="keywords" content="salle de yoga, Etampes, Yoga Arc-en-Ciel, ancien moulin, pratique du yoga" />
+        <meta name="keywords" content="studio de yoga, salle de yoga, Etampes, Yoga Arc-en-Ciel, ancien moulin, pratique du yoga" />
       </Helmet>
       <div className="placestuffContainer">
         <section className="salleContainer">
-          <h1>La Salle</h1>
+          <h1>Le Studio</h1>
           <p>
             Le lieu de pratique est un espace privé situé à 12km au sud d'Etampes
             dans la Vallée de la Chalouette.
           </p>
           <p>
             Dans un ancien moulin, au calme et entouré de verdure, le cadre est
-            privilégié<br></br> et incite à la quiétude et à l'intériorisation.
+            privilégié<br></br> et propice à la quiétude et à l'intériorisation.
           </p>
           <p>
             La salle est lumineuse et accueillante.

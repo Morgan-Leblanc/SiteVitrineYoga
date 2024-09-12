@@ -25,6 +25,13 @@
   margin: 20px 0;
 }
 
+.App h3 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 2rem;
+  opacity: 0.6;
+  margin: 20px 0;
+}
+
 #citationGlobal {
   color: #467f8c;
   font-style: italic;

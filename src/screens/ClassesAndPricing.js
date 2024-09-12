@@ -14,15 +14,15 @@ const ClassesAndPricing = () => {
           <h1>Horaires</h1>
           <div className="horaires">
             <article>
-              <h2>Mardi</h2>
+              <h3>Mardi</h3>
               <p>9h30 - 11h30 & 18h30 - 20h30</p>
             </article>
             <article>
-              <h2>Mercredi</h2>
+              <h3>Mercredi</h3>
               <p>17h30 - 19h30</p>
             </article>
             <article>
-              <h2>Jeudi</h2>
+              <h3>Jeudi</h3>
               <p>9h30 - 11h30</p>
             </article>
           </div>
@@ -34,11 +34,11 @@ const ClassesAndPricing = () => {
           <h1>Tarifs</h1>
           <p>Pour 1 séance hebdomadaire de 2H00 : 450 € / an</p>
           <p>Pour 2 séances hebdomadaires de 2H00 : 810 € / an</p>
-          <p>(Règlement possible en 3 chèques à l'inscription)</p>
+          <p>(Règlement échelonné possible à l'inscription)</p>
           <p>Séance supplémentaire (dans le cadre d'un forfait annuel) : 15 €</p>
           <p>Pour une séance hors forfait : 20€</p>
           <p>Adhésion annuelle obligatoire : 20€</p>
-          <p>La séance d'essai est offerte (appeler au préalable pour connaître les créneaux disponibles).</p>
+          <p>La séance d'essai est offerte <br></br>  (appeler au préalable pour connaître les créneaux disponibles).</p>
           <p>
             Les séances non effectuées ne sont pas remboursées. 
             Néanmoins, en cas d'absence à un cours, il vous est possible de le
