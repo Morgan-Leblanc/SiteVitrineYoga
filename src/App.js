@@ -34,8 +34,8 @@ const App = () => {
           <Route exact path="/" element={<Home/>} />
           <Route path="/classes-and-pricing" element={<ClassesAndPricing/>} />
           <Route path="/studio" element={<Studio/>} />
-          <Route path="/contact" element={<Contact/>} />
           <Route path="/yoga-information" element={<YogaInformation/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

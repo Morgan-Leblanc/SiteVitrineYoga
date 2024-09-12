@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import { dojoPicturesTab } from "../assets/pictures/dojoPicturesTab";
-import "../screens/screensCss/Studio.css";
+import "../screens/styles/Studio.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 

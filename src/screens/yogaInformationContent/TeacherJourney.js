@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import "../screensCss/YogaInformation.css";
+import "../styles/YogaInformation.css";
 
 const TeacherJourney = () => {
   return (
@@ -15,7 +15,7 @@ const TeacherJourney = () => {
         <section>
           <p>
             Nathalie LEBLANC découvre le yoga en 1986 à l’âge de
-            21ans.
+            21 ans.
           </p>
           <p>
             En 1993 elle obtient son diplôme d’enseignante de yoga à l’issue
@@ -39,12 +39,12 @@ const TeacherJourney = () => {
             prêtre,<br></br> spécialiste des grandes religions qui vécu 22 ans en Inde.
             <br></br>
             <br></br>Depuis 1998 elle a reçu l’enseignement de divers
-            formateurs de l’EFY (Ecole Française de Yoga) <br></br> et notamment :
+            formateurs de l’EFY (Ecole Française de Yoga) et notamment :
           </p>
 
           <p>
             De 2005 à 2011 celui d’Annemarie Hebeisen, formatrice d'anatomie et de yoga dans la
-            lignée Dürckheim, disciple du moine zen Hôzumi Roshi et proche collaboratrice <br></br> de Blandine Calais-Germain auteure  de plusieurs ouvrages dont <br></br> « Anatomie pour le yoga
+            lignée Dürckheim, <br></br> disciple du moine zen Hôzumi Roshi et proche collaboratrice de Blandine Calais-Germain auteure  de plusieurs ouvrages dont  « Anatomie pour le yoga
             », « Abdos sans risque », «Le périnée féminin et l'accouchement »...
           </p>
 

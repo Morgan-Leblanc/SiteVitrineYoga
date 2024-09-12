@@ -1,18 +1,13 @@
 import React from "react";
-import imglotus from "../assets/pictures/lotus.png";
-import "./componentsCss/Footer.css";
+import "./componentsStyle/Footer.css";
+import lotus from "../assets/pictures/lotus.png";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="footerContainer">
-        <img src={imglotus} id="lotus"  alt="lotusboudha"/>
-        <h1>Association Arc-En-Ciel </h1>
-      </div>
-        <p>
-          Copyriht © 2020 - Tous droits reservés - Webmaster: Morgan Leblanc
-        </p>
-    </div>
+    <footer className="footer-container">
+      <p>© 2023 Yoga Arc-en-Ciel. Tous droits réservés. Webmaster Morgan Leblanc.</p>
+      <img src={lotus} alt="Lotus" id="lotus" />
+    </footer>
   );
 };
 

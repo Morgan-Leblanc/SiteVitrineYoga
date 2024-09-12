@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import "../screensCss/YogaMethodsAndBenefits.css"
+import "../styles/YogaMethodsAndBenefits.css"
 
 const YogaBenefits = () => {
   return (

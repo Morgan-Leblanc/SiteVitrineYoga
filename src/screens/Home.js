@@ -1,6 +1,6 @@
 import React from "react";
 import yogiste from "../assets/pictures/yogiste_header.jpg";
-import "./screensCss/Home.css";
+import "./styles/Home.css";
 import { Helmet } from "react-helmet";
 
 const Home = () => {

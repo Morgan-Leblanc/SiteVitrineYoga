@@ -2,7 +2,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import deGasquet from "../../assets/pictures/gasquet.jpg"
-import "../screensCss/YogaMethodsAndBenefits.css"
+import "../styles/YogaMethodsAndBenefits.css"
 
 const DeGasquetMethod = () => {
   return (

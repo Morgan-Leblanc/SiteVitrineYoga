@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
-import "../screens/screensCss/Contact.css";
+import "../screens/styles/Contact.css";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 import { Helmet } from "react-helmet";
 

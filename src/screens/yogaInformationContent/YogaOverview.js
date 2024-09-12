@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import "../screensCss/YogaMethodsAndBenefits.css"
+import "../styles/YogaMethodsAndBenefits.css"
 
 const YogaOverview = () => {
   return (
@@ -20,7 +20,7 @@ const YogaOverview = () => {
           </p>
           <p>
             Nous proposons une pratique globale, douce, progressive et respectueuse
-            du corps <br></br> et du rythme de chacun.
+            du corps et du rythme de chacun.
           </p>
           <p>
             La méthode APOR (voir méthode De Gasquet) propose une approche

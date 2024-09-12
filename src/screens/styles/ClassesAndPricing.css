@@ -53,6 +53,8 @@
     width: 100%;
     margin: 2% 0;
     padding: 15px;
+    word-wrap: break-word;
+    text-align: justify;
   }
   
   .horaires {

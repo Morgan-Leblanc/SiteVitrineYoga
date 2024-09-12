@@ -4,7 +4,7 @@ import DeGasquetMethod from "./yogaInformationContent/DeGasquetMethod";
 import YogaBenefits from "./yogaInformationContent/YogaBenefits";
 import YogaOverview from "./yogaInformationContent/YogaOverview";
 import TeacherJourney from "./yogaInformationContent/TeacherJourney";
-import "../screens/screensCss/YogaInformation.css"
+import "../screens/styles/YogaInformation.css"
 
 const YogaInformation = () => {
   const [activeSection, setActiveSection] = useState("parcours");

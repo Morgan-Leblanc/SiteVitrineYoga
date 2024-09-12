@@ -1,5 +1,5 @@
 import React from "react";
-import "./screensCss/CoursTarifs.css";
+import "./styles/ClassesAndPricing.css";
 import { Helmet } from "react-helmet";
 
 const ClassesAndPricing = () => {
@@ -38,7 +38,7 @@ const ClassesAndPricing = () => {
           <p>Séance supplémentaire (dans le cadre d'un forfait annuel) : 15 €</p>
           <p>Pour une séance hors forfait : 20€</p>
           <p>Adhésion annuelle obligatoire : 20€</p>
-          <p>La séance d'essai est offerte <br></br>  (appeler au préalable pour connaître les créneaux disponibles).</p>
+          <p>La séance d'essai est offerte (appeler au préalable pour connaître les créneaux disponibles).</p>
           <p>
             Les séances non effectuées ne sont pas remboursées. 
             Néanmoins, en cas d'absence à un cours, il vous est possible de le
