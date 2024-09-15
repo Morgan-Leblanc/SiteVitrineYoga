@@ -1,0 +1,18 @@
+# Allow all robots
+User-agent: *
+
+# Allow the main pages
+Allow: /
+
+# Block access to CSS files
+Disallow: /componentsStyle/
+
+# Block JavaScript and source files
+Disallow: /static/
+Disallow: /src/
+
+# Block access to internal assets
+Disallow: /assets/
+
+# Link to the sitemap for better crawling
+Sitemap: https://www.your-domain.com/sitemap.xml
