@@ -4,7 +4,7 @@ import "./componentsStyle/Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbarContainer">
+    <nav className="navbarContainer">
       <Link className="link" to="/">
         Accueil
       </Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
       <Link className="link" to="/contact">
         Contact
       </Link>
-    </div>
+    </nav>
   );
 };
 
