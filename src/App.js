@@ -24,7 +24,6 @@ const App = () => {
         <meta name="keywords" content="yoga, cours de yoga, tarifs yoga, studio yoga, méthode DeGasquet" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.yoga-arcenciel-etampes.fr/" />
-        <meta name="google-site-verification" content="yrMWoiI9eBCFC4mPTe5tUAibl3XBQycAl0R8mYxPD3s" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
