@@ -15,11 +15,11 @@ const ClassesAndPricing = () => {
           <div className="horaires">
             <article>
               <h3>Mardi</h3>
-              <p>9h30 - 11h30 & 18h30 - 20h30</p>
+              <p>9h30 - 11h30</p>
             </article>
             <article>
               <h3>Mercredi</h3>
-              <p>17h30 - 19h30</p>
+              <p>9h30 - 11h30</p>
             </article>
             <article>
               <h3>Jeudi</h3>
